@@ -83,7 +83,6 @@ body{
 .header__block-button{
     background-color: #FFBD59; 
     padding:  19px 45px;
-    
 }
 
 .header__block-img{
@@ -158,3 +157,14 @@ body{
     max-width: 371px;
     padding-bottom: 54px;
 }
+
+.product__item-menu{
+}
+
+
+
+
+.underline__products{
+    padding-left: 351px;
+}
+
