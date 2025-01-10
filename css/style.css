@@ -141,6 +141,7 @@ body{
     padding-top: 106px;
 }
 
+
 .product__inner-title{
     font-family: "Yeseva One", serif;
     font-weight: 400;
@@ -149,22 +150,62 @@ body{
     max-width: 391px;
     padding-top: 153px;
     padding-bottom: 15px;
+    margin-bottom:  4px;
 }
 
 .product__inner-subtitle{
-    padding-top: 4px;
-    font-style: normal;
     max-width: 371px;
-    padding-bottom: 54px;
 }
+.section__descrirption{
+    flex-basis: 370px;
+}
+
+.product__inner{
+    display: grid;
+    grid-template-columns: 370px auto;
+}
+
+.section__descrirption{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 80px;
+}
+
 
 .product__item-menu{
+    width: 290px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
 }
 
+.product__item-img{
+    margin-bottom: 8px;
+}
 
+.price{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+}
+
+.product__name{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family:"Yeseva One", serif ;
+    font-weight: 400;
+}
+
+.discription_product{
+    margin-bottom: 46px;
+    
+}
 
 
 .underline__products{
+    padding-top: 89px ;
     padding-left: 351px;
 }
+
 
