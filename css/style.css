@@ -209,3 +209,97 @@ body{
 }
 
 
+
+
+
+
+
+
+.step__name{
+    text-align: left;
+    font-size: 14px;
+    max-width: 175px;
+    padding: 0;
+}
+
+.step__inner-items{
+    padding-top: 150px;
+}
+.step_number{
+    color: #BEA495 ;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Yeseva One", serif;
+    padding-top: 52px;
+    
+}
+
+.step_number_end{
+    margin-left: 110px;
+    display: grid;
+    place-items: center;
+}
+
+.step__item-menu{
+    column-count: 2;
+    padding: 25px auto 0 0;
+}
+
+
+.step__block + .step__block{
+    margin-top: 70px;
+}
+
+
+.step__block{
+    column-width: 382px;
+}
+
+
+
+.step__inner{
+    display: grid;
+    grid-template-columns: 370px auto;
+    
+}
+
+.step__block-number{
+    position: relative
+}
+
+
+.kurs__name{
+    margin-bottom: 15px;
+    padding-top: 28px;
+    font-size: 16px;
+    font-family:"Yeseva One", serif ;
+    font-weight: 400;
+}
+
+.kurs__inner-product{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.course__inner{
+    display: grid;
+grid-template-columns: 370px auto;
+}
+
+
+.kurs__inner-product{
+    padding-left: 75px;
+    padding-top: 150px;
+}
+
+.discription_product{
+    max-width: 268px;
+    text-align: center;
+}
+
+.kurs-button{
+    background-color: #FFBD59; 
+    padding:  19px 45px;
+    margin-left: 38px;
+}
+
