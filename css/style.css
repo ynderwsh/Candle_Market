@@ -85,6 +85,11 @@ body{
     padding:  19px 45px;
 }
 
+.header__block-button:hover{
+    background-color: #7B6152;
+    color: #FFF; 
+}
+
 .header__block-img{
     position: absolute;
     margin-top: 30px;
@@ -206,6 +211,7 @@ body{
 .underline__products{
     padding-top: 89px ;
     padding-left: 351px;
+    padding-bottom: 150px;
 }
 
 
@@ -274,32 +280,175 @@ body{
     font-size: 16px;
     font-family:"Yeseva One", serif ;
     font-weight: 400;
+    padding-left: 13px;
 }
 
 .kurs__inner-product{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% auto;
 }
 
 .course__inner{
     display: grid;
-grid-template-columns: 370px auto;
+    grid-template-columns: 370px auto;
+    
 }
 
+.kurs__item-menu{
+    margin-left: 13px;
+}
 
 .kurs__inner-product{
     padding-left: 75px;
-    padding-top: 150px;
 }
 
 .discription_product{
     max-width: 268px;
     text-align: center;
 }
+.kurs__button-inner{
+    padding-left: 13px;
+}
+.kurs-button{
+    background-color: #FFBD59; 
+    padding:  20px 48px;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+.kurs-button:hover{
+    background-color: #7B6152; 
+    color: #fff;
+}
+
+
+.sotr{
+    background-color: #A5978E;
+}
+
+.sotr__inner-title{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 40px;
+    max-width: 391px;
+    padding-bottom: 15px;
+    color: #FFF;
+}
+
+.sotr__inner-subtitle{
+    padding-top: 4px;
+    font-style: normal;
+    max-width: 391px;
+    padding-bottom:10px ;
+    color: #FFF;
+    margin-bottom: 528px;
+}
+
+
+.sotr__inner{
+    column-count: 4;
+    padding-top: 50px;
+    gap: 25px;
+    padding-bottom: 83px;
+    column-gap: 50px;
+    column-fill: balance;
+}
+
+.sotr__gallary{    
+    padding-left: 20px;
+}
+
+
+.sotr-about__info{
+   position: absolute;
+   padding:  142px 147px;
+}
+
+.sotr__inner-about{
+    background-color: #7B6152;
+    color: #FFF;
+    max-width: 173px;
+    text-align: center;
+    font-size: 10px;
+    padding: 14px 9px;
+}
+
+.sotr__inner-name{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 12px;
+    padding-bottom: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.review__inner{
+    display: grid;
+    grid-template-columns: 370px auto;
+}
+
+.review__item-menu{
+    padding: 20px;
+}
+
+.review__inner-product{
+    column-count: 3;
+    
+    padding-top: 50px;
+}
+
+.review_product{
+    max-width: 372px;
+}
+.kurs__button-inner{
+    padding-left: 13px;
+}
+
+.review__name{
+    margin-bottom: 16px;
+    padding-top:12px ;
+    font-size: 16px;
+    font-family:"Yeseva One", serif ;
+    font-weight: 400;
+}
 
 .kurs-button{
     background-color: #FFBD59; 
-    padding:  19px 45px;
-    margin-left: 38px;
+    padding:  20px 48px;
+    margin-left: 30px;
+    align-items: center;
+
 }
 
+.kurs-button:hover{
+    background-color: #7B6152; 
+    color: #fff;
+}
+.review__item-img{
+    padding-top: 50px;
+}
+
+.review__inst-img{
+    padding-top: 100px;
+}
+
+.review__inner-title{
+    padding-top: 100px;
+}
+
+.review-button{
+    margin-top: 83px;
+    margin-left: 93px;
+}
